@@ -1,7 +1,7 @@
 # React Tutorials
 
 ### Table of contents
-1. Intro to Javascript
+1. [Intro to Javascript](./intro/README.md)
 2. Async workflow
 3. Javascript dependancy management, packages, and build
 4. Express server side framework
