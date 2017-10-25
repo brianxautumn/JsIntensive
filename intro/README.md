@@ -1,6 +1,6 @@
 # Intro to Javascript
 
-- Statements and Declarations
+- [Statements and Declarations](#statements-and-declarations)
     - Declarations
     - Iterations
 
