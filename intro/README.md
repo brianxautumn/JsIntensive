@@ -5,7 +5,7 @@
     - Iterations
 
 
-### Declarations
+### Statements and Declarations
 #### var
 Declare a variable . 
 
