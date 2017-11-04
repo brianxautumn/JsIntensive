@@ -4,8 +4,8 @@
 1. [Intro to Javascript](./intro/README.md)
 2. Async workflow
 3. [Javascript dependancy management, packages, and build](./packaging/README.md)
-4. Express server side framework
-5. Databases
+4. [Express server side framework](./express/README.md)
+5. Websocket and real time data flow
 6. Intro to React
 7. Data Flow in React
 8. Client Side React
@@ -14,7 +14,7 @@
 11. React + Redux architecture for Data flow
 12. Intro to electron
 13. Electron and React
-14. Websocket and real time data flow
+14. Databases
 15. React Native for iOS and Android
 16. C++ Addons
 
