@@ -3,7 +3,7 @@
 ### Table of contents
 1. [Intro to Javascript](./intro/README.md)
 2. Async workflow
-3. Javascript dependancy management, packages, and build
+3. [Javascript dependancy management, packages, and build](./packaging/README.md)
 4. Express server side framework
 5. Databases
 6. Intro to React
