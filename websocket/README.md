@@ -13,3 +13,29 @@ WebSocket is a standard HTML5 feature and can be accessed with the `WebSocket` a
 ```javascript
 let socket = new WebSocket("ws://www.myserver.com/ws");
 ```
+Once the socket is connected, you need to setup event handlers to handle incoming data. Websocket has 4 main events. `onopen`, `onerror  `, `onmessage`, and `onclose`.
+
+```javascript
+socket.addEventListener('open', event => {
+    // Socket now open
+});
+socket.addEventListener('message', event => {
+    // Message recieved from server
+    console.log(event.message);
+});
+socket.addEventListener('error', event => {
+    console.log('Error occured ', event.data);
+});
+socket.addEventListener('close', event => {
+    console.log('Closed with code', event.code);
+});
+```
+
+Sending data is done with the `send` method. The `send` method will accept string data, ArrayBuffer, Blob, and ArrayBufferView.
+```javascript
+socket.send('hello');
+```
+Closing the connection can be done with the `close` method.
+```javascript
+socket.close();
+```
