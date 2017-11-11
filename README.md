@@ -5,7 +5,7 @@
 2. Async workflow
 3. [Javascript dependancy management, packages, and build](./packaging/README.md)
 4. [Express server side framework](./express/README.md)
-5. Websocket and real time data flow
+5. [Websocket and real time data flow](./websocket/README.md)
 6. Intro to React
 7. Data Flow in React
 8. Client Side React
