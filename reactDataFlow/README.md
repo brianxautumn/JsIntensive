@@ -47,7 +47,46 @@ In order to set the prop value in the child, from the parent component, pass it 
 ```
 See the full example in [example1](./example1)
 #### State
+`State` differs from `props`, in that state can change. The initial state is declared in the constructor. Set the state object via `this.state`.
+```javascript
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggleState: false
+    };
+  }
+```
+In the render function, let's use the data from `this.state.toggleState` to make some ui changes. In this case, it will be used to change the background color of a div. Notice that style properties are in camel case.
 
+In order tomake some changes to the state, there needs to be some way to accept input. Use the `onClick` prop to pass a reference to a function to be triggered when the element is clicked.
+```javascript
+  render() {
+    return (
+      <div
+      style={{ 
+        backgroundColor: this.state.toggleState ? 'red' : 'green', 
+        width: 300,
+        height: 300,
+        lineHeight: '300px',
+        textAlign: 'center'
+        }}
+        onClick={this.pressHandler.bind(this)}
+      >
+        click me!
+      </div>
+    );
+  }
+```
+Finally, use the `setState` function in order to change the state. Do not change the property directly or it will not trigger a new render.
+```javascript
+  pressHandler() {
+    this.setState({
+      toggleState: !this.state.toggleState
+    });
+  }
+```
+
+Full example for [stateIntro](./stateIntro.jsx)
 #### Refs
 
 #### Data Flow
