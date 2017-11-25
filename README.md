@@ -1,9 +1,9 @@
 # JavaScript Intensive
 
 ### Table of contents
-1. [Intro to Javascript](./intro)
-2. Async workflow
-3. [Javascript dependancy management, packages, and build](./packaging)
+1. [Intro to JavaScript](./intro)
+2. [Concurrency model and Event Loop](./workflow)
+3. [JavaScript dependancy management, packages, and build](./packaging)
 4. [Express server side framework](./express)
 5. [Websocket and real time data flow](./websocket)
 6. [Intro to React](./react)

@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 class StateIntro extends React.Component {
   constructor(props) {
@@ -18,12 +18,12 @@ class StateIntro extends React.Component {
   render() {
     return (
       <div
-      style={{ 
-        backgroundColor: this.state.toggleState ? 'red' : 'green', 
-        width: 300,
-        height: 300,
-        lineHeight: '300px',
-        textAlign: 'center'
+        style={{
+          backgroundColor: this.state.toggleState ? "red" : "green",
+          width: 300,
+          height: 300,
+          lineHeight: "300px",
+          textAlign: "center"
         }}
         onClick={this.pressHandler.bind(this)}
       >
@@ -32,4 +32,5 @@ class StateIntro extends React.Component {
     );
   }
 }
-ReactDOM.render(<StateIntro />, document.getElementById('root'));
+
+ReactDOM.render(<StateIntro />, document.getElementById("root"));
