@@ -13,8 +13,7 @@
 10. Isomorphic React
 11. Redux
 12. Electron
-13. WebWorkers
+13. Parallel JavaScript
 14. Databases
 15. React Native for iOS and Android
 16. C++ Addons
-
